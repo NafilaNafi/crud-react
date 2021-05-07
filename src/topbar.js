@@ -92,7 +92,7 @@ export default function Topbar(){
                                         Spending Alert: We've noticed unusually high spending for your account.
                                     </div>
                                 </Link>
-                                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                                <Link class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</Link>
                             </div>
                         </li>
 
@@ -157,7 +157,7 @@ export default function Topbar(){
                                         <div class="small text-gray-500">Chicken the Dog · 2w</div>
                                     </div>
                                 </Link>
-                                <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+                                <Link class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</Link>
                             </div>
                         </li>
 
@@ -167,8 +167,7 @@ export default function Topbar(){
                             <Link class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
-                                <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg"/>
+                                <img class="img-profile rounded-circle" src="img/undraw_profile.svg"/>
                             </Link>
                             
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
