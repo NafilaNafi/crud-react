@@ -25,7 +25,6 @@ export default function Sidebar() {
             <div class="sidebar-heading">
                 Interface
             </div>
-
             <li class="nav-item">
                 <Link to="/users" class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
